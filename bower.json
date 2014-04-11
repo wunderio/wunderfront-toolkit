@@ -1,0 +1,28 @@
+{
+  "name": "wunderfront",
+  "version": "0.0.1",
+  "authors": [
+    ":Lewis Nyman <lewis.nyman@wunderkraut.com>"
+  ],
+  "main": "sass/_wunderfront.scss",
+  "devDependencies": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests",
+    "Gemfile",
+    "Gemfile.lock",
+    "Gruntfile.js",
+    "examples",
+    "sass/example.scss",
+    "images",
+    "fonts",
+    "js",
+    "package.json",
+    "config.*",
+    "*.gem"
+  ]
+}

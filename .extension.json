@@ -1,0 +1,17 @@
+{
+  "extension": {
+    "sass": [
+      "_wunderfront.scss",
+      "wunderfront/**/*"
+    ],
+    "images": [
+      "**"
+    ],
+    "js": [
+      "**"
+    ],
+    "fonts": [
+      "**"
+    ]
+  }
+}

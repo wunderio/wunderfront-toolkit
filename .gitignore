@@ -1,0 +1,11 @@
+node_modules
+/components
+bower_components
+.www
+.sass-cache
+.compass/lib
+.compass/stylesheets
+.compass/templates
+export
+*.gem
+
