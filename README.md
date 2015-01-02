@@ -37,7 +37,8 @@ Or, you can add it to an existing project by adding the following to your `confi
 You can also import specific files or groups of files:
 
 `@import "wunderfront/utilities"`
-`@import "wunderfront/utilities"`
+`@import "wunderfront/base"`
+`@import "wunderfront/componenets"`
 
 **Bower**
 
@@ -88,17 +89,32 @@ To import only variables and nothing else, add the following to your Sass file:
 * `$WunderFontHeader`                "Museo Slab", Arial,sans-serif;
 
 
-### Mixins
+### Helper mixins
 
 To import only variables and nothing else, add the following to your Sass file:
 `@import "wunderfront/utilities/mixins"`
 
 * `@mixin element-invisible` Replicating Drupal core's .element-invisible
-
 * `@mixin element-invisible-off` Replicating Drupal core's .element-invisible
-
 * `@mixin element-invisible-focusable` Replicating Drupal core's .element-invisible.focusable
-
 * `@mixin offscreen` Shift content offscreen
-
 * `@mixin element-hidden` Replicating Drupal core's .element-hidden
+
+### Base styling
+
+#### Elements
+
+body, h1, h2, h3, h4, h5, h6
+
+### Components
+
+#### Team
+
+* `@mixin wk-team` Or use the class .team
+* `@mixin wk-team__member` Or use the class .team__member
+
+#### Person
+
+* `@mixin wk-person` Or use the class .person
+* `@mixin wk-person__name` Or use the class .person__name
+* `@mixin wk-person__picture` Or use the class .person__picture

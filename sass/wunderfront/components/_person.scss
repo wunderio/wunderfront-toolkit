@@ -12,11 +12,11 @@
 }
 
 @if $wk-produce-css-classes {
-  .person__name {
-    @include wk-person__name;
-  }
   .person {
     @include wk-person;
+  }
+  .person__name {
+    @include wk-person__name;
   }
   .person__picture {
     @include wk-person__picture;
