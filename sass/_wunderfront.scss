@@ -3,6 +3,9 @@
 @import "wunderfront/utilities/mixins";
 @import "wunderfront/utilities/helpers";
 
+// Base
+@import "wunderfront/base/elements";
+
 // Components
 @import "wunderfront/components/team";
 @import "wunderfront/components/person";

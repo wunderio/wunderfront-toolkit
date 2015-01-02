@@ -1,0 +1,31 @@
+body {
+  background: #fff;
+  font-family: $WunderFont;
+  color: $WunderGreyDark;
+}
+
+h1 {
+  font-family: $WunderFontHeader;
+  font-weight: 700;
+  color: $WunderPink;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin: 0;
+}
+h2 {
+  font-family: $WunderFontHeader;
+  font-weight: 500;
+}
+h3 {
+  font-family: $WunderFontHeader;
+  font-weight: 500;
+}
+h4 {
+  font-family: $WunderFontHeader;
+  font-weight: 700;
+}
+h5 {
+  font-family: $WunderFont;
+  font-weight: bold;
+}
+h6 {}
