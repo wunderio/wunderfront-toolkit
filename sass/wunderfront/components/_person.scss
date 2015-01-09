@@ -1,3 +1,5 @@
+$breakpoint-large: 768px;
+
 @mixin wk-person {
   @include clearfix();
 }
@@ -10,6 +12,21 @@
   float: left;
   margin: 0 10px 0 0;
 }
+@mixin wk-person__info {
+  line-height: 1.6em;
+}
+@mixin wk-person--page__primary {
+  @media (min-width: $breakpoint-large) {
+    width: 66%;
+    float: left;
+  }
+}
+@mixin wk-person--page__secondary {
+  @media (min-width: $breakpoint-large) {
+    width: 33%;
+    float: right;
+  }
+}
 
 @if $wk-produce-css-classes {
   .person {
@@ -20,6 +37,18 @@
   }
   .person__picture {
     @include wk-person__picture;
+  }
+  .person__job-title,
+  .person__office,
+  .person__email,
+  .person__phone {
+    @include wk-person__info;
+  }
+  .person--page .person__primary {
+    @include wk-person--page__primary;
+  }
+  .person--page .person__secondary {
+    @include wk-person--page__secondary;
   }
 }
 

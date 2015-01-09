@@ -1,0 +1,11 @@
+@mixin layout-container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@if $wk-produce-css-classes {
+  .layout-container {
+    @include layout-container();
+  }
+}
