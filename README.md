@@ -86,7 +86,7 @@ To import only variables and nothing else, add the following to your Sass file:
 #### Fonts
 
 * `$WunderFont`                      "Droid Sans", Arial,sans-serif;
-* `$WunderFontHeader`                "Museo Slab", Arial,sans-serif;
+* `$WunderFontHeader`                museo-slab, "Museo Slab", Arial,sans-serif;
 
 
 ### Helper mixins
@@ -100,11 +100,15 @@ To import only variables and nothing else, add the following to your Sass file:
 * `@mixin offscreen` Shift content offscreen
 * `@mixin element-hidden` Replicating Drupal core's .element-hidden
 
+### Layout helper mixins
+
+* `@mixin layout-container` Max width of the whole page. Or use class .layout-container
+
 ### Base styling
 
 #### Elements
 
-body, h1, h2, h3, h4, h5, h6
+body, h1, h2, h3, h4, h5, h6, a
 
 ### Components
 
@@ -118,3 +122,7 @@ body, h1, h2, h3, h4, h5, h6
 * `@mixin wk-person` Or use the class .person
 * `@mixin wk-person__name` Or use the class .person__name
 * `@mixin wk-person__picture` Or use the class .person__picture
+* `@mixin wk-person--page__primary` Primary column for individual person pages
+* `@mixin wk-person--page__secondary` Secondary column for individual person pages
+* `@mixin wk-person__info` Person information, .person__job-title, .person__office, .person__email, .person__phone
+
