@@ -11,6 +11,7 @@ $breakpoint-large: 768px;
 @mixin wk-person__picture {
   float: left;
   margin: 0 10px 0 0;
+  width: 50%;
 }
 @mixin wk-person__info {
   line-height: 1.6em;
