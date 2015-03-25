@@ -38,6 +38,9 @@ $breakpoint-large: 768px;
   }
   .person__picture {
     @include wk-person__picture;
+    .person--page & {
+      width: auto;
+    }
   }
   .person__job-title,
   .person__office,
