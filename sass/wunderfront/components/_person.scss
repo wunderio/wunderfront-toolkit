@@ -24,7 +24,7 @@ $breakpoint-large: 768px;
 }
 @mixin wk-person--page__secondary {
   @media (min-width: $breakpoint-large) {
-    width: 33%;
+    width: 30%;
     float: right;
   }
 }
